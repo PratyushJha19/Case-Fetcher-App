@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     async function fetchCaptcha() {
       try {
-        const res = await axios.get(
+        const res = await axios.post(
           `${process.env.REACT_APP_SERVER_URL}/api/case/get-captcha`
         );
         setCaptcha(res.data.captchaText);

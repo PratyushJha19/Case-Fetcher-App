@@ -1,3 +1,5 @@
+// Project: This is a React component that fetches case details from the Delhi High Court website based on user input and displays them in a table format.
+
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";

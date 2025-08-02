@@ -15,5 +15,9 @@ app.get("/", (req, res) => {
   res.send("Welcome to the Case Fetcher API");
 });
 
+app.get("/test", (req, res) => {
+  res.send("Welcome to the test page");
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

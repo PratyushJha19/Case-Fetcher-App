@@ -121,5 +121,10 @@ CREATE TABLE result_logs (
 
 ---
 
+# Blockers
+
+## 1. Downloading Liked PDFs
+I wasn’t able to implement the PDF download feature in this app because the process was more complex than regular data scraping, involving dynamic links, sessions, and binary file handling. Moreover, the PDF files on the court website were behind JavaScript-based navigation or dynamic links, which made them hard to access through basic scraping.
+
 
 
